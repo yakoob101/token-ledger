@@ -32,7 +32,7 @@
 /* ---- the projects: one bar split by project, the totals under it */
 .tl-split { flex: 1 1 auto; min-height: 100px; display: flex; margin-top: var(--s-6);
   border-radius: var(--r-lg); overflow: hidden; background: color-mix(in oklab, var(--ink) 8%, var(--bg)); }
-.tl-split > i { display: block; height: 100%; }
+.tl-split > i { display: block; align-self: stretch; }
 .tl-proj-list { flex: none; margin-top: var(--s-5); }
 .tl-proj-list > li { padding-block: var(--s-2); border-bottom: 1px solid var(--line); }
 .tl-proj-list > li:first-child { padding-top: 0; }
