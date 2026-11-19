@@ -1,14 +1,14 @@
 {
-  "generated": "2026-11-19T12:19:34.324Z",
+  "generated": "2026-11-19T22:35:55.334Z",
   "database": "C:\\Users\\Yakoob\\.local\\share\\opencode\\opencode.db",
   "totals": {
-    "total": 184900119,
-    "fresh": 6538047,
-    "cache": 178362072,
+    "total": 198857407,
+    "fresh": 7112423,
+    "cache": 191744984,
     "cost": 0,
-    "input": 4905973,
-    "output": 660536,
-    "reasoning": 971538,
+    "input": 5340987,
+    "output": 709346,
+    "reasoning": 1062090,
     "sessions": 11,
     "projects": 4
   },
@@ -16,13 +16,13 @@
     {
       "name": "Default Project",
       "sessions": 5,
-      "input": 2401666,
-      "output": 300183,
-      "reasoning": 388516,
-      "cache": 79784920,
-      "last": 1795090772360,
-      "fresh": 3090365,
-      "total": 82875285
+      "input": 2564887,
+      "output": 336317,
+      "reasoning": 453681,
+      "cache": 90660440,
+      "last": 1795127752354,
+      "fresh": 3354885,
+      "total": 94015325
     },
     {
       "name": "tomatoes",
@@ -49,13 +49,13 @@
     {
       "name": "stopwatch",
       "sessions": 1,
-      "input": 95412,
-      "output": 27243,
-      "reasoning": 46374,
-      "cache": 3918720,
-      "last": 1795088967412,
-      "fresh": 169029,
-      "total": 4087749
+      "input": 367205,
+      "output": 39919,
+      "reasoning": 71761,
+      "cache": 6426112,
+      "last": 1795126956743,
+      "fresh": 478885,
+      "total": 6904997
     }
   ],
   "days": [
@@ -121,15 +121,21 @@
     },
     {
       "date": "2026-11-18",
-      "fresh": 1407472,
-      "cache": 34998335,
-      "total": 36405806
+      "fresh": 1348467,
+      "cache": 35145371,
+      "total": 36493839
     },
     {
       "date": "2026-11-19",
-      "fresh": 797976,
-      "cache": 15330277,
-      "total": 16128254
+      "fresh": 1189188,
+      "cache": 22053837,
+      "total": 23243024
+    },
+    {
+      "date": "2026-11-20",
+      "fresh": 242169,
+      "cache": 6512316,
+      "total": 6754485
     }
   ],
   "sessions": [
@@ -162,6 +168,20 @@
       "cost": 0
     },
     {
+      "id": "ses_e118adb97ffeG40lRog5Sxx7wk",
+      "title": "Total token usage across opencode",
+      "project": "Default Project",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-18T11:40:16.929Z",
+      "updated": "2026-11-19T22:35:52.350Z",
+      "input": 924165,
+      "output": 75588,
+      "reasoning": 141083,
+      "cacheRead": 24684288,
+      "total": 25825124,
+      "cost": 0
+    },
+    {
       "id": "ses_e34366176ffe2fxEW0Za0T1Rb3",
       "title": "Skeuomorphic vinyl turntable player",
       "project": "music player",
@@ -176,17 +196,31 @@
       "cost": 0
     },
     {
-      "id": "ses_e118adb97ffeG40lRog5Sxx7wk",
-      "title": "Total token usage across opencode",
+      "id": "ses_e0c73a537ffenNPlTcpFM3n9vw",
+      "title": "Ultralight Windows stopwatch app",
       "project": "Default Project",
       "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
-      "created": "2026-11-18T11:40:16.929Z",
-      "updated": "2026-11-19T12:19:32.360Z",
-      "input": 894544,
-      "output": 69199,
-      "reasoning": 131521,
-      "cacheRead": 20515840,
-      "total": 21611104,
+      "created": "2026-11-19T11:23:44.287Z",
+      "updated": "2026-11-19T22:35:52.354Z",
+      "input": 155755,
+      "output": 30434,
+      "reasoning": 56429,
+      "cacheRead": 6780928,
+      "total": 7023546,
+      "cost": 0
+    },
+    {
+      "id": "ses_e0c715af5ffeYoYpyU2cEJ1gtS",
+      "title": "Ultra-low RAM Windows stopwatch",
+      "project": "stopwatch",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-19T11:26:14.325Z",
+      "updated": "2026-11-19T22:22:36.743Z",
+      "input": 367205,
+      "output": 39919,
+      "reasoning": 71761,
+      "cacheRead": 6426112,
+      "total": 6904997,
       "cost": 0
     },
     {
@@ -201,20 +235,6 @@
       "reasoning": 40621,
       "cacheRead": 4549120,
       "total": 4722612,
-      "cost": 0
-    },
-    {
-      "id": "ses_e0c715af5ffeYoYpyU2cEJ1gtS",
-      "title": "Ultra-low RAM Windows stopwatch",
-      "project": "stopwatch",
-      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
-      "created": "2026-11-19T11:26:14.325Z",
-      "updated": "2026-11-19T11:49:27.412Z",
-      "input": 95412,
-      "output": 27243,
-      "reasoning": 46374,
-      "cacheRead": 3918720,
-      "total": 4087749,
       "cost": 0
     },
     {
@@ -243,20 +263,6 @@
       "reasoning": 801,
       "cacheRead": 187648,
       "total": 209795,
-      "cost": 0
-    },
-    {
-      "id": "ses_e0c73a537ffenNPlTcpFM3n9vw",
-      "title": "Ultralight Windows stopwatch app",
-      "project": "Default Project",
-      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
-      "created": "2026-11-19T11:23:44.287Z",
-      "updated": "2026-11-19T11:25:28.633Z",
-      "input": 22155,
-      "output": 689,
-      "reasoning": 826,
-      "cacheRead": 73856,
-      "total": 97526,
       "cost": 0
     },
     {
