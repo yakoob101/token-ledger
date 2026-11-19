@@ -1,14 +1,14 @@
 {
-  "generated": "2026-11-19T22:35:55.334Z",
+  "generated": "2026-11-19T22:41:40.153Z",
   "database": "C:\\Users\\Yakoob\\.local\\share\\opencode\\opencode.db",
   "totals": {
-    "total": 198857407,
-    "fresh": 7112423,
-    "cache": 191744984,
+    "total": 203659554,
+    "fresh": 7269578,
+    "cache": 196389976,
     "cost": 0,
-    "input": 5340987,
-    "output": 709346,
-    "reasoning": 1062090,
+    "input": 5475381,
+    "output": 718699,
+    "reasoning": 1075498,
     "sessions": 11,
     "projects": 4
   },
@@ -16,13 +16,13 @@
     {
       "name": "Default Project",
       "sessions": 5,
-      "input": 2564887,
-      "output": 336317,
-      "reasoning": 453681,
-      "cache": 90660440,
-      "last": 1795127752354,
-      "fresh": 3354885,
-      "total": 94015325
+      "input": 2699281,
+      "output": 345670,
+      "reasoning": 467089,
+      "cache": 95305432,
+      "last": 1795128099124,
+      "fresh": 3512040,
+      "total": 98817472
     },
     {
       "name": "tomatoes",
@@ -31,7 +31,7 @@
       "output": 183754,
       "reasoning": 375664,
       "cache": 71642368,
-      "last": 1795087157310,
+      "last": 1795127810651,
       "fresh": 2324829,
       "total": 73967197
     },
@@ -53,7 +53,7 @@
       "output": 39919,
       "reasoning": 71761,
       "cache": 6426112,
-      "last": 1795126956743,
+      "last": 1795127773932,
       "fresh": 478885,
       "total": 6904997
     }
@@ -121,21 +121,21 @@
     },
     {
       "date": "2026-11-18",
-      "fresh": 1348467,
-      "cache": 35145371,
-      "total": 36493839
+      "fresh": 1377251,
+      "cache": 35182939,
+      "total": 36560190
     },
     {
       "date": "2026-11-19",
-      "fresh": 1189188,
-      "cache": 22053837,
-      "total": 23243024
+      "fresh": 1234196,
+      "cache": 22224037,
+      "total": 23458233
     },
     {
       "date": "2026-11-20",
-      "fresh": 242169,
-      "cache": 6512316,
-      "total": 6754485
+      "fresh": 325532,
+      "cache": 10949539,
+      "total": 11275072
     }
   ],
   "sessions": [
@@ -173,12 +173,12 @@
       "project": "Default Project",
       "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
       "created": "2026-11-18T11:40:16.929Z",
-      "updated": "2026-11-19T22:35:52.350Z",
-      "input": 924165,
-      "output": 75588,
-      "reasoning": 141083,
-      "cacheRead": 24684288,
-      "total": 25825124,
+      "updated": "2026-11-19T22:41:39.124Z",
+      "input": 1035889,
+      "output": 76964,
+      "reasoning": 144743,
+      "cacheRead": 25609856,
+      "total": 26867452,
       "cost": 0
     },
     {
@@ -201,12 +201,12 @@
       "project": "Default Project",
       "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
       "created": "2026-11-19T11:23:44.287Z",
-      "updated": "2026-11-19T22:35:52.354Z",
-      "input": 155755,
-      "output": 30434,
-      "reasoning": 56429,
-      "cacheRead": 6780928,
-      "total": 7023546,
+      "updated": "2026-11-19T22:41:04.639Z",
+      "input": 178425,
+      "output": 38411,
+      "reasoning": 66177,
+      "cacheRead": 10500352,
+      "total": 10783365,
       "cost": 0
     },
     {
@@ -215,7 +215,7 @@
       "project": "stopwatch",
       "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
       "created": "2026-11-19T11:26:14.325Z",
-      "updated": "2026-11-19T22:22:36.743Z",
+      "updated": "2026-11-19T22:36:13.932Z",
       "input": 367205,
       "output": 39919,
       "reasoning": 71761,
@@ -229,7 +229,7 @@
       "project": "tomatoes",
       "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
       "created": "2026-11-17T22:04:14.379Z",
-      "updated": "2026-11-18T09:57:46.637Z",
+      "updated": "2026-11-19T22:36:49.730Z",
       "input": 117940,
       "output": 14931,
       "reasoning": 40621,
@@ -243,7 +243,7 @@
       "project": "tomatoes",
       "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
       "created": "2026-11-18T11:31:15.697Z",
-      "updated": "2026-11-18T12:10:51.767Z",
+      "updated": "2026-11-19T22:36:50.651Z",
       "input": 58172,
       "output": 2185,
       "reasoning": 2237,
@@ -271,7 +271,7 @@
       "project": "tomatoes",
       "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
       "created": "2026-11-16T22:21:14.991Z",
-      "updated": "2026-11-16T22:27:16.304Z",
+      "updated": "2026-11-19T22:36:47.902Z",
       "input": 12037,
       "output": 1223,
       "reasoning": 607,

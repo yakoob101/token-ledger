@@ -121,7 +121,8 @@ const dots = Array.from({ length: ratioNum }, (_, i) => `<i${i === 0 ? ' class="
 
 const sorted = [...sessions].sort((a, b) => totalOf(b) - totalOf(a));
 const barRows = sorted.slice(0, 6).map((s) => ({
-  title: (s.title || "Untitled session").slice(0, 30),
+  // shortcut: the name shares one SVG line with its total, so a title past ~44 characters overlaps it at 390; give it a second line when titles grow
+  title: s.title || "Untitled session",
   value: n(totalOf(s)),
   total: totalOf(s),
 }));
