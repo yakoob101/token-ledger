@@ -1,0 +1,105 @@
+/* Token Ledger: the page's own parts. Everything else is the kit's. */
+
+/* every section after the hero fills its screen: the heading at the top, the chart taking the rest */
+.tl-fill { display: flex; flex-direction: column; }
+.tl-fill > .wrap { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 0; }
+
+/* the hero's UI window and its note card */
+.hero__art > .ly-piece--note { left: var(--s-6); bottom: var(--s-6); width: 300px; z-index: 2; }
+.ly-piece--main .d-row { grid-template-columns: 36px minmax(0, 1fr) 76px 92px; }
+.ly-piece--main .d-main { padding-right: var(--ly-cut-room); }
+.ly-piece--main .d-tabs { flex-wrap: wrap; row-gap: 4px; }
+.tl-note__line { display: flex; align-items: center; gap: 10px; padding: 7px 0; font-size: 13px; color: var(--ground-ink, #262d24); border-top: 1px solid rgb(0 0 0 / .08); }
+.tl-note__line:first-of-type { border-top: 0; }
+.tl-note__line b { font-weight: 500; color: var(--ground-ink, #262d24); }
+@media (max-width: 1100px) { .ly-piece--main .d-chip { display: none; } }
+
+/* ---- every token, split: two bars, the section's visual */
+.tl-chart { flex: 1 1 auto; min-height: 220px; display: grid; align-content: space-between; gap: var(--s-7); margin-top: var(--s-6); }
+.tl-chart__unit { display: grid; gap: var(--s-3); }
+.tl-scale { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-4); margin: 0; }
+.tl-scale b { font-weight: 500; font-variant-numeric: tabular-nums; }
+.tl-bar { display: flex; height: 18px; border-radius: 999px; overflow: hidden; background: color-mix(in oklab, var(--ink) 8%, var(--bg)); }
+.tl-bar--lg { height: clamp(48px, 6vw, 84px); border-radius: var(--r-md); }
+.tl-bar > i { display: block; height: 100%; }
+.tl-bar__cache { flex: 1 1 auto; background: color-mix(in oklab, var(--ink) 20%, var(--bg)); }
+.tl-bar__fresh { flex: 0 0 var(--fresh); background: var(--action); }
+.tl-key { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5); margin: 0; font-size: var(--t-label); color: var(--muted); }
+.tl-key span { display: inline-flex; align-items: center; gap: var(--s-2); }
+.tl-swatch { width: 10px; height: 10px; border-radius: 3px; background: var(--action); }
+.tl-swatch--cache { background: color-mix(in oklab, var(--ink) 20%, var(--bg)); }
+
+/* ---- the projects: one bar split by project, the totals under it */
+.tl-split { flex: 1 1 auto; min-height: 100px; display: flex; margin-top: var(--s-6);
+  border-radius: var(--r-lg); overflow: hidden; background: color-mix(in oklab, var(--ink) 8%, var(--bg)); }
+.tl-split > i { display: block; height: 100%; }
+.tl-proj-list { flex: none; margin-top: var(--s-5); }
+.tl-proj-list > li { padding-block: var(--s-2); border-bottom: 1px solid var(--line); }
+.tl-proj-list > li:first-child { padding-top: 0; }
+.tl-proj-list > li:last-child { border-bottom: 0; }
+.tl-proj-list p { margin: 0; }
+.tl-proj__total { font-size: var(--t-small); color: var(--muted); }
+.tl-proj__total b { font-family: var(--font-display); font-weight: 500; font-size: var(--t-h3); color: var(--ink); letter-spacing: var(--display-tracking); font-variant-numeric: tabular-nums; }
+.tl-proj__meta { font-size: var(--t-label); color: var(--muted); }
+@media (max-width: 1279px) { .tl-proj__meta { display: none; } }
+
+/* the projects band starts at the same distance inside its edge as the ground change leaves outside it */
+#projects { padding-top: var(--padb); }
+
+/* ---- the timeline */
+.tl-days { flex: 1 1 auto; min-height: 200px; display: grid; grid-template-columns: repeat(var(--cols, 11), minmax(0, 1fr)); gap: var(--s-3);
+  align-items: end; margin-top: var(--s-6); }
+.tl-day { display: flex; flex-direction: column; justify-content: flex-end; gap: var(--s-2); height: 100%; }
+.tl-day__fill { height: calc(var(--v, 0) * 1%); display: flex; flex-direction: column; justify-content: flex-end;
+  border-radius: var(--r-sm) var(--r-sm) 0 0; overflow: hidden; background: var(--surface); }
+.tl-day__fill i { display: block; height: calc(var(--f, 0) * 1%); }
+.tl-day__cache { background: color-mix(in oklab, var(--ink) 20%, var(--bg)); }
+.tl-day__fresh { background: var(--action); }
+.tl-day--zero .tl-day__fill { height: 3px; background: var(--line-strong); }
+.tl-day__label { text-align: left; font-size: var(--t-label); color: var(--muted); font-variant-numeric: tabular-nums; }
+.tl-day--peak .tl-day__label { color: var(--ink); font-weight: 500; }
+.tl-timeline-key { flex: none; margin-top: var(--s-4); }
+@media (max-width: 639px) { .tl-day__label { font-size: 11px; } }
+
+/* ---- the ratio: the statement and the cells that draw it (the page's one scroll moment) */
+.tl-statement { font-size: var(--t-h2); line-height: 1.1; letter-spacing: var(--display-tracking); max-width: 24ch; }
+.tl-word { color: color-mix(in oklab, var(--ink) 26%, var(--bg)); transition: color 220ms var(--ease); }
+.tl-word.is-lit { color: var(--ink); }
+.tl-word--muted.is-lit { color: var(--muted); }
+.tl-dots { flex: 1 1 auto; min-height: 140px; display: grid; grid-template-columns: repeat(var(--n, 28), minmax(0, 1fr)); gap: 6px; }
+.tl-dots i { border-radius: 3px; background: color-mix(in oklab, var(--ink) 12%, var(--bg)); }
+.tl-dots i.is-fresh { background: var(--accent); }
+.tl-note__foot { flex: none; max-width: 62ch; }
+#note > .wrap { justify-content: center; gap: var(--s-6); }
+
+/* ---- the sessions: one ranked bar per session, the svg fills the screen under the heading */
+.tl-sbar { flex: 1 1 auto; width: 100%; min-height: 260px; margin-top: var(--s-6); display: block; }
+.tl-sbar__name { font: 400 13px var(--font-text); fill: var(--ink); }
+.tl-sbar__value { font: 500 13px var(--font-display); fill: var(--ink); font-variant-numeric: tabular-nums; }
+.tl-sbar__track { fill: color-mix(in oklab, var(--ink) 10%, var(--bg)); }
+.tl-sbar__fill { fill: var(--action); }
+
+/* the close's name fits the container */
+.close__word { font-size: clamp(40px, 8.6vw, 132px); line-height: 1.02; letter-spacing: -0.04em; overflow: visible; }
+
+/* a phone: the hero's window keeps its own smaller height */
+@media (max-width: 639px) {
+  .hero__art { min-height: 200px; }
+  .tl-chart { gap: var(--s-5); }
+  .ly-piece--main .d-row small { display: none; }
+}
+
+/* the centre nav holds its three pieces on one row at every width (the kit's grid drops the menu button past the edge at 320) */
+@media (max-width: 1023px) {
+  .nav--centre .nav__bar { display: flex; }
+  .nav--centre .nav__logo { grid-column: auto; }
+  .nav--centre .nav__actions { grid-column: auto; }
+}
+@media (max-width: 359px) {
+  .nav:not(.is-open) .nav__actions { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tl-word { color: var(--ink); transition: none; }
+  .tl-word--muted { color: var(--muted); }
+}

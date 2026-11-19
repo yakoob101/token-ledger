@@ -1,0 +1,291 @@
+{
+  "generated": "2026-11-19T12:19:34.324Z",
+  "database": "C:\\Users\\Yakoob\\.local\\share\\opencode\\opencode.db",
+  "totals": {
+    "total": 184900119,
+    "fresh": 6538047,
+    "cache": 178362072,
+    "cost": 0,
+    "input": 4905973,
+    "output": 660536,
+    "reasoning": 971538,
+    "sessions": 11,
+    "projects": 4
+  },
+  "projects": [
+    {
+      "name": "Default Project",
+      "sessions": 5,
+      "input": 2401666,
+      "output": 300183,
+      "reasoning": 388516,
+      "cache": 79784920,
+      "last": 1795090772360,
+      "fresh": 3090365,
+      "total": 82875285
+    },
+    {
+      "name": "tomatoes",
+      "sessions": 4,
+      "input": 1765411,
+      "output": 183754,
+      "reasoning": 375664,
+      "cache": 71642368,
+      "last": 1795087157310,
+      "fresh": 2324829,
+      "total": 73967197
+    },
+    {
+      "name": "music player",
+      "sessions": 1,
+      "input": 643484,
+      "output": 149356,
+      "reasoning": 160984,
+      "cache": 23016064,
+      "last": 1794868353801,
+      "fresh": 953824,
+      "total": 23969888
+    },
+    {
+      "name": "stopwatch",
+      "sessions": 1,
+      "input": 95412,
+      "output": 27243,
+      "reasoning": 46374,
+      "cache": 3918720,
+      "last": 1795088967412,
+      "fresh": 169029,
+      "total": 4087749
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-11-08",
+      "fresh": 244813,
+      "cache": 7306703,
+      "total": 7551516
+    },
+    {
+      "date": "2026-11-09",
+      "fresh": 1448018,
+      "cache": 43922026,
+      "total": 45370044
+    },
+    {
+      "date": "2026-11-10",
+      "fresh": 15637,
+      "cache": 474320,
+      "total": 489957
+    },
+    {
+      "date": "2026-11-11",
+      "fresh": 985099,
+      "cache": 23964704,
+      "total": 24949803
+    },
+    {
+      "date": "2026-11-12",
+      "fresh": 561364,
+      "cache": 18068789,
+      "total": 18630153
+    },
+    {
+      "date": "2026-11-13",
+      "fresh": 0,
+      "cache": 0,
+      "total": 0
+    },
+    {
+      "date": "2026-11-14",
+      "fresh": 390784,
+      "cache": 12578273,
+      "total": 12969057
+    },
+    {
+      "date": "2026-11-15",
+      "fresh": 62029,
+      "cache": 1996551,
+      "total": 2058580
+    },
+    {
+      "date": "2026-11-16",
+      "fresh": 266725,
+      "cache": 8585170,
+      "total": 8851896
+    },
+    {
+      "date": "2026-11-17",
+      "fresh": 358129,
+      "cache": 11136924,
+      "total": 11495052
+    },
+    {
+      "date": "2026-11-18",
+      "fresh": 1407472,
+      "cache": 34998335,
+      "total": 36405806
+    },
+    {
+      "date": "2026-11-19",
+      "fresh": 797976,
+      "cache": 15330277,
+      "total": 16128254
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ses_e2e94d403ffeNE0w4fPBzmsaug",
+      "title": "Tomato-throwing clicker game",
+      "project": "tomatoes",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-12T20:20:24.271Z",
+      "updated": "2026-11-19T11:19:17.310Z",
+      "input": 1577262,
+      "output": 165415,
+      "reasoning": 332199,
+      "cacheRead": 66784640,
+      "total": 68859516,
+      "cost": 0
+    },
+    {
+      "id": "ses_e42e50cb1ffe2IEJKMKv9X2fO9",
+      "title": "Vibrance color palette app",
+      "project": "Default Project",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-08T21:40:22.578Z",
+      "updated": "2026-11-19T11:19:17.123Z",
+      "input": 1461651,
+      "output": 228355,
+      "reasoning": 255280,
+      "cacheRead": 59005400,
+      "total": 60950686,
+      "cost": 0
+    },
+    {
+      "id": "ses_e34366176ffe2fxEW0Za0T1Rb3",
+      "title": "Skeuomorphic vinyl turntable player",
+      "project": "music player",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-11T18:05:50.689Z",
+      "updated": "2026-11-16T22:32:33.801Z",
+      "input": 643484,
+      "output": 149356,
+      "reasoning": 160984,
+      "cacheRead": 23016064,
+      "total": 23969888,
+      "cost": 0
+    },
+    {
+      "id": "ses_e118adb97ffeG40lRog5Sxx7wk",
+      "title": "Total token usage across opencode",
+      "project": "Default Project",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-18T11:40:16.929Z",
+      "updated": "2026-11-19T12:19:32.360Z",
+      "input": 894544,
+      "output": 69199,
+      "reasoning": 131521,
+      "cacheRead": 20515840,
+      "total": 21611104,
+      "cost": 0
+    },
+    {
+      "id": "ses_e1475f79cffe8oWkXBmkxEd3nE",
+      "title": "AirPodsDesktop install and run",
+      "project": "tomatoes",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-17T22:04:14.379Z",
+      "updated": "2026-11-18T09:57:46.637Z",
+      "input": 117940,
+      "output": 14931,
+      "reasoning": 40621,
+      "cacheRead": 4549120,
+      "total": 4722612,
+      "cost": 0
+    },
+    {
+      "id": "ses_e0c715af5ffeYoYpyU2cEJ1gtS",
+      "title": "Ultra-low RAM Windows stopwatch",
+      "project": "stopwatch",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-19T11:26:14.325Z",
+      "updated": "2026-11-19T11:49:27.412Z",
+      "input": 95412,
+      "output": 27243,
+      "reasoning": 46374,
+      "cacheRead": 3918720,
+      "total": 4087749,
+      "cost": 0
+    },
+    {
+      "id": "ses_e11931e62ffeisCtDwHXYAGFiX",
+      "title": "What DietrichGebert/ponytail does",
+      "project": "tomatoes",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-18T11:31:15.697Z",
+      "updated": "2026-11-18T12:10:51.767Z",
+      "input": 58172,
+      "output": 2185,
+      "reasoning": 2237,
+      "cacheRead": 252544,
+      "total": 315138,
+      "cost": 0
+    },
+    {
+      "id": "ses_e11876c07ffehRUJrxIs8SGhbU",
+      "title": "taste-skill repository purpose",
+      "project": "Default Project",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-18T11:44:02.105Z",
+      "updated": "2026-11-18T12:21:57.879Z",
+      "input": 19650,
+      "output": 1696,
+      "reasoning": 801,
+      "cacheRead": 187648,
+      "total": 209795,
+      "cost": 0
+    },
+    {
+      "id": "ses_e0c73a537ffenNPlTcpFM3n9vw",
+      "title": "Ultralight Windows stopwatch app",
+      "project": "Default Project",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-19T11:23:44.287Z",
+      "updated": "2026-11-19T11:25:28.633Z",
+      "input": 22155,
+      "output": 689,
+      "reasoning": 826,
+      "cacheRead": 73856,
+      "total": 97526,
+      "cost": 0
+    },
+    {
+      "id": "ses_e198cc0cfffe4tzBTdHSdFqWFR",
+      "title": "Chrome browse install script",
+      "project": "tomatoes",
+      "model": "{\"id\":\"deepseek-v4.1-flash-free\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-16T22:21:14.991Z",
+      "updated": "2026-11-16T22:27:16.304Z",
+      "input": 12037,
+      "output": 1223,
+      "reasoning": 607,
+      "cacheRead": 56064,
+      "total": 69931,
+      "cost": 0
+    },
+    {
+      "id": "ses_e43e4ebc5ffetPej3TWliFkJon",
+      "title": "Assistant capabilities",
+      "project": "Default Project",
+      "model": "{\"id\":\"big-pickle\",\"providerID\":\"opencode\"}",
+      "created": "2026-11-08T17:00:54.037Z",
+      "updated": "2026-11-08T21:40:06.452Z",
+      "input": 3666,
+      "output": 244,
+      "reasoning": 88,
+      "cacheRead": 2176,
+      "total": 6174,
+      "cost": 0
+    }
+  ]
+}
